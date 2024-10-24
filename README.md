@@ -10,15 +10,15 @@ Producto
 
 Clase base que representa un producto general.
 
-    Atributos:
+Atributos:
 
-        _nombre (str): Nombre del producto, privado.
-        _precio (float): Precio del producto, privado.
+    _nombre (str): Nombre del producto, privado.
+    _precio (float): Precio del producto, privado.
 
-    Métodos:
+Métodos:
 
-        obtener_precio(): Devuelve el precio del producto.
-        mostrar_info(): Muestra la información del producto.
+    obtener_precio(): Devuelve el precio del producto.
+    mostrar_info(): Muestra la información del producto.
 
 Ropa
 
@@ -88,8 +88,8 @@ El programa permitirá al usuario seleccionar productos y procesar la compra.
 
 Ejecución del Programa
 
-Para ejecutar el programa, simplemente ejecuta el archivo principal en tu entorno de desarrollo de Python:
-python nombre_del_archivo.py
+    Para ejecutar el programa, simplemente ejecuta el archivo principal en tu entorno de desarrollo de Python:
+        python nombre_del_archivo.py
 
 Autor
 
