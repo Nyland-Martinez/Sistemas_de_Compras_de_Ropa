@@ -24,72 +24,73 @@ Ropa
 
 Clase que hereda de Producto y añade características específicas de la ropa.
 
-    Atributos:
+Atributos:
 
-        _cantidad (int): Cantidad de producto disponible, privado.
+    _cantidad (int): Cantidad de producto disponible, privado.
 
-    Métodos:
+Métodos:
 
-        mostrar_info(): Muestra la información de la ropa.
+    mostrar_info(): Muestra la información de la ropa.
 
 Camisa, Pantalon, Zapato
 
 Clases específicas que heredan de Ropa y añaden atributos específicos.
 
-    Atributos de Camisa:
+Atributos de Camisa:
 
-        _talla (str): Talla de la camisa, privado.
-        _tipo_tela (str): Tipo de tela de la camisa, privado.
+    _talla (str): Talla de la camisa, privado.
+    _tipo_tela (str): Tipo de tela de la camisa, privado.
 
-    Atributos de Pantalon:
+Atributos de Pantalon:
 
-        _talla (str): Talla del pantalón, privado.
-        _color (str): Color del pantalón, privado.
+    _talla (str): Talla del pantalón, privado.
+    _color (str): Color del pantalón, privado.
 
-    Atributos de Zapato:
+Atributos de Zapato:
 
-        _calce (str): Talla del zapato, privado.
+    _calce (str): Talla del zapato, privado.
 
-    Métodos:
+Métodos:
 
-        mostrar_info(): Muestra la información específica del producto.
+    mostrar_info(): Muestra la información específica del producto.
 
 Carrito
 
 Clase para manejar el carrito de compras.
 
-    Atributos:
+Atributos:
 
-        productos (list): Lista de productos en el carrito.
+    productos (list): Lista de productos en el carrito.
 
-    Métodos:
+Métodos:
 
-        agregar_producto(producto): Añade un producto al carrito.
-        mostrar_resumen(): Muestra el resumen de la compra y el total a pagar.
+    agregar_producto(producto): Añade un producto al carrito.
+    mostrar_resumen(): Muestra el resumen de la compra y el total a pagar.
 
 Tienda
 
 Clase que maneja los productos disponibles y las compras.
 
-    Atributos:
+Atributos:
 
-        _nombre (str): Nombre de la tienda, privado.
-        prendas (list): Lista de productos disponibles en la tienda.
-        carrito (Carrito): Carrito de compras del usuario.
+    _nombre (str): Nombre de la tienda, privado.
+    prendas (list): Lista de productos disponibles en la tienda.
+    carrito (Carrito): Carrito de compras del usuario.
 
-    Métodos:
+Métodos:
 
-        agregar_prenda(prenda): Añade una prenda al inventario.
-        mostrar_inventario(): Muestra el inventario de la tienda.
-        seleccionar_producto(): Permite al usuario seleccionar productos.
-        procesar_compra(): Muestra el resumen de la compra y el total a pagar.
+    agregar_prenda(prenda): Añade una prenda al inventario.
+    mostrar_inventario(): Muestra el inventario de la tienda.
+    seleccionar_producto(): Permite al usuario seleccionar productos.
+    procesar_compra(): Muestra el resumen de la compra y el total a pagar.
 
 El programa permitirá al usuario seleccionar productos y procesar la compra.
 
 Ejecución del Programa
 
-    Para ejecutar el programa, simplemente ejecuta el archivo principal en tu entorno de desarrollo de Python:
-        python nombre_del_archivo.py
+Para ejecutar el programa, simplemente ejecuta el archivo principal en tu entorno de desarrollo de Python:
+
+    python nombre_del_archivo.py
 
 Autor
 
